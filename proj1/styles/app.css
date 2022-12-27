@@ -6,7 +6,7 @@
 
 body{
     
-    color: #555;
+    color: ver(__blue);
     font-family: arial;
     background-color: #888;
 }
