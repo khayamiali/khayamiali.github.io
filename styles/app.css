@@ -1,14 +1,16 @@
 * {
+    
     padding: 0;
     margin: 0;    
     box-sizing: border-box;
+    
 }
 
 body{
     
-    color: ver(__blue);
+    color: black-;
     font-family: arial;
-    background-color: #888;
+    background-color:lightcyan;
 }
 .clear {
     clear: both;
@@ -62,7 +64,7 @@ img{
 }
 
 #services{
-    background: #999;
+    background: burlywood;
     padding: 30px;
     color: white !important;
 }
