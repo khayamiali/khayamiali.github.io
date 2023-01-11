@@ -80,9 +80,14 @@ img{
     text-align: justify;
 }
 
+a:link{
+    color:red
+}
+
 a:visited{
     color:purple;
 }
+
 a:hover{
     color:plum;
 }
