@@ -79,3 +79,10 @@ img{
 #services .service-description{
     text-align: justify;
 }
+
+a:visited{
+    color:purple;
+}
+a:hover{
+    color:plum;
+}
