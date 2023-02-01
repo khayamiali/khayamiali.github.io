@@ -10,7 +10,7 @@ body{
     
     color: black-;
     font-family: arial;
-    background-color:lightcyan;
+    background-color:lightcoral;
 }
 .clear {
     clear: both;
@@ -58,9 +58,7 @@ img{
     border: 1px solid #aaa;
 } 
  
-.active{
-    display: inline;
-}
+
 
 .box-title{
     font-size: 35px;
@@ -68,15 +66,22 @@ img{
 }
 .falling {
     list-style-type: none;
-    margin: 10px;
-    padding: 10;
+    margin: 0;
+    padding: 7px 337px;
     overflow: hidden;
     background-color: white;
   }
-  
-  li {
-    float: left;
+
+  .active{
+    text-align: center;
+    display: block;
+   
   }
+  
+ 
+ li{
+    float:left;
+ }
   
   li a {
     display: block;
@@ -91,7 +96,7 @@ img{
   }
 
 #services{
-    background: burlywood;
+    background:blanchedalmond;
     padding: 30px;
     color: white !important;
 }
