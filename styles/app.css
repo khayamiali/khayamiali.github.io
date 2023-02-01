@@ -10,7 +10,7 @@ body{
     
     color: black-;
     font-family: arial;
-    background-color:lightcoral;
+    background-color:rgba(189, 33, 33, 0.973);
 }
 .clear {
     clear: both;
@@ -70,18 +70,15 @@ img{
     padding: 7px 337px;
     overflow: hidden;
     background-color: white;
-  }
+}
 
-  .active{
-    text-align: center;
-    display: block;
-   
-  }
+
+  
   
  
- li{
-    float:left;
- }
+li{
+    float: left;
+}
   
   li a {
     display: block;
@@ -92,11 +89,11 @@ img{
   }
   
   li a:hover {
-    background-color:burlywood ;
+    background-color:rgb(13, 180, 77);
   }
 
 #services{
-    background:blanchedalmond;
+    background:rgb(13, 180, 77);
     padding: 30px;
     color: white !important;
 }
@@ -107,10 +104,9 @@ img{
 }
 #services  .service-title{
     text-align: center;
+margin: 15px; 
 }
-#services .service-description{
-    text-align: justify;
-}
+
 
 a:link{
     color:red;
@@ -123,3 +119,29 @@ a:visited{
 a:hover{
     color:red;
 }
+
+
+    section #projects img{
+        width: 100%;
+        height: auto;
+        
+      }
+      #projects > div{
+        width: 25%;
+        float: left;
+        padding: 5px;
+    }
+    #services .service-description{
+        text-align: center;
+        
+    }
+    
+    #projects > div > div{
+        background-color: rgb(13, 180, 77);
+        border-radius: 5px;
+        text-align: center;}
+    div > ul {
+        float: left;
+        display: block;
+    }
+ 
